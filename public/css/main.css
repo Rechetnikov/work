@@ -1,0 +1,57 @@
+h1{
+     padding: 0px;
+     margin: 0px;
+}
+
+button, input{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#container{
+    padding: 30px;
+}
+
+#container #container_header{
+    padding-bottom: 30px;
+}
+
+#container #authorization{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container #authorization div{
+    border: 1px solid #ccc;
+    border-radius:  10px;
+    padding: 20px;
+}
+
+#container #authorization #submit{
+    margin-right: 40px; 
+}
+
+#container .error{
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 2px solid red;
+}
+
+#container .info{
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 2px solid green;
+}
+
+.logout_header{
+    float: right;
+}
+
+.registr{
+    width: 600px;
+
+}

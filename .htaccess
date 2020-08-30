@@ -1,0 +1,7 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine on
+
+RewriteRule \.(swf|fla|xml|ico|jpg|gif|png|js|css|doc|docx|xls|xlsx)$ - [L]
+RewriteRule ^(.*)$ index.php [L,QSA]
+
